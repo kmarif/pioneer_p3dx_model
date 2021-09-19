@@ -44,6 +44,7 @@ $ source <catkin_ws>/devel/setup.sh
 
 Launching Gazebo and Robot together 
 $ roslaunch p3dx_gazebo pioneer3dx.launch
+--> The p3dx_gazebo/launch folder also contians a few variants of the launch file e.g., pioneer3dxCam.launch, pioneer3dxSonar.launch .
 
 Launching Rviz
 $ roslaunch p3dx_description rviz.launch
@@ -58,5 +59,4 @@ p3dx_gazebo/worlds/p3dx_map1.world
 
 <uri>/home/<username>/<catkin_ws_name>/src/pioneer_p3dx_model/p3dx_description/meshes/chassis.stl</uri>
 
-The p3dx_gazebo/launch folder also contians a few variants of the launch file e.g., pioneer3dxCam.launch, pioneer3dxSonar.launch .
 ```
