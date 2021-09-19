@@ -20,7 +20,7 @@ $ source <catkin_ws>/devel/setup.sh
 Launching Gazebo
 $ roslaunch gazebo_ros empty_world.launch
 Spawning Robot
-$ roslaunch p3dx_gazebo p3xd.launch
+$ roslaunch p3dx_gazebo p3dx.launch
 
 p3dx.launch arguments:
 * ns:= (namespace) | default: p3dx
