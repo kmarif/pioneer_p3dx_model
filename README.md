@@ -29,9 +29,9 @@ p3dx.launch arguments:
 * z:= (z position) | default: 0.0
 
 Spawning two or more robots
-$ roslaunch p3dx_gazebo p3xd.launch ns:=p3dx_1
-$ roslaunch p3dx_gazebo p3xd.launch ns:=p3dx_2 x:=2
-$ roslaunch p3dx_gazebo p3xd.launch ns:=p3dx_3 x:=2 y:=2
+$ roslaunch p3dx_gazebo p3dx.launch ns:=p3dx_1
+$ roslaunch p3dx_gazebo p3dx.launch ns:=p3dx_2 x:=2
+$ roslaunch p3dx_gazebo p3dx.launch ns:=p3dx_3 x:=2 y:=2
 
 Launching Rviz
 $ roslaunch p3dx_description rviz.launch
