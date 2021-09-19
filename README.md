@@ -44,7 +44,7 @@ In order to use the other included world files, it is necessary to replace the f
 Example:
 p3dx_gazebo/worlds/p3dx_map1.world
 
-<uri>/home/mario/catkin_ws/src/pioneer_p3dx_model/p3dx_description/meshes/chassis.stl</uri>
+<uri>/home/<username>/catkin_ws/src/pioneer_p3dx_model/p3dx_description/meshes/chassis.stl</uri>
 =>
 <uri>/home/<username>/<catkin_ws_name>/src/pioneer_p3dx_model/p3dx_description/meshes/chassis.stl</uri>
 
