@@ -33,7 +33,7 @@
 	      	launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@'"/>
 
 
-        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
 	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 
 	<!-- ros_control p3rd launch file -->
